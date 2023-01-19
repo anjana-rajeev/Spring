@@ -1,0 +1,119 @@
+
+
+            Section A
+
+
+Qn1)Features:a) Core technologies: dependency injection, events, resources, i18n, validation, data binding, type conversion, SpEL, AOP. 
+             b)Testing: mock objects, TestContext framework, Spring MVC Test, WebTestClient 
+             c) Data Access: transactions, DAO support, JDBC, ORM, Marshalling XML.
+
+Qn2)The Spring Framework is an open-source framework for building enterprise Java applications. 
+    Spring aims to simplify the complex and cumbersome enterprise Java application development process by offering a framework that includes technologies such as: 
+    Aspect-oriented programming (AOP) Dependency injection (DI)
+Qn3) i. Use of POJO.
+    ii. Flexibility for configuring Spring.
+    iii. No Need Server. As you know Spring framework provides a lightweight container. ...
+    iv. Use of Spring AOP.
+    v. No Need to Reinvent. ...
+    vi. Use of Modularity. ...
+    vii. Ease of Testability. ...
+    viii. The Consistency of Transaction Management.
+Qn4)Features:a) Core technologies: dependency injection, events, resources, i18n, validation, data binding, type conversion, SpEL, AOP. 
+             b)Testing: mock objects, TestContext framework, Spring MVC Test, WebTestClient 
+             c) Data Access: transactions, DAO support, JDBC, ORM, Marshalling XML.
+Qn5)The Spring Framework consists of features organized into about 20 modules. These modules are grouped into 
+    Core Container, Data Access/Integration, Web, AOP (Aspect Oriented Programming), Instrumentation, and Test
+Qn6)What is Spring configuration file?
+    A Spring configuration file is an XML file that contains the classes information. It describes how those classes are configured as well as introduced to each other.
+    It provides an open-source framework for flexibly wiring together the difference parts of an application, each of which is represented by a bean.
+Qn7)Spring Boot Framework has mainly four major Components.
+    Spring Boot Starters.
+    Spring Boot AutoConfigurator.
+    Spring Boot CLI.
+    Spring Boot Actuator.
+Qn9)The IoC container is responsible to instantiate, configure and assemble the objects. The IoC container gets informations from the XML file and works accordingly. 
+    The main tasks performed by IoC container are:
+
+   to instantiate the application class
+   to configure the object
+   to assemble the dependencies between the objects
+   There are two types of IoC containers. They are:
+
+   BeanFactory
+   ApplicationContext
+Qn10)Dependency injection is a design pattern in which an object or function receives other objects or functions that it depends on.
+     A form of inversion of control, dependency injection aims to separate the concerns of constructing objects and using them, leading to loosely coupled programs.
+Qn11)Press Ctrl+Alt+S to open the IDE settings and select Plugins.
+     Open the Installed tab, search for Spring and make sure that the checkboxes next to all relevant plugins are selected.
+Qn12)Using application.properties file
+     server.port=8082  
+    We can also set the port property to 0. It scans the random port for the application. 
+    It uses a new port whenever we restart our application.
+Qn13)WhiteLabel Error Page is a generic Spring Boot error page that is displayed when no custom error page is present.
+
+    server.error.whitelabel.enabled=false
+   A WhiteLabel Error can is disabled in the application.properties file by setting the server.error.whitelabel.enabled to false.
+   Another way of disabling the WhiteLabel Error is excluding the ErrorMvcAutoConfiguration.
+Qn14)Spring also follows the pattern and provides extensive support for internationalization (i18n) through the use of Spring interceptors,
+     Locale Resolvers and Resource Bundles for different locales
+Qn15)a) BeanFactory Container is basic container, it can only create objects and inject Dependencies.But we can not attach other services like security, transaction ,messaging etc.
+     To provied all the services we have to use ApplicationContext Container.
+
+     b) BeanFactory Container doesn't support the feature of AutoScanning , but ApplicationContext Container supports.
+
+     c) Beanfactory Container will not create a bean object upto the request time.It means Beanfactory Container loads beans laziely.
+     d) Beanfactory Container support only two scopes (singleton & prototype) of the beans. But ApplicationContext Container supports all the beans scope
+      While ApplicationContext Container creates objects of Singleton bean at the time of loading only.It means there is early loading.
+Qn16)Inject and Autowired both annotations are used for autowiring in your application. Inject annotation is part of Java CDI which was introduced in Java 6, where 
+    Autowire annotation is part of spring framework. Both annotations fulfill same purpose therefore, anything of these we can use in our application.
+   The Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type. The Qualifier annotation can be used on any class 
+   annotated with Component or on methods annotated with Bean .
+   This annotation can also be applied on constructor arguments or method parameters.
+
+
+SECTION B
+-----------
+
+
+Qn1)All of above
+
+Qn2)True
+
+Qn3)Hibernate contextual sessions
+
+Qn4)True
+
+Qn5)@Transactional
+
+Qn6)DelegatingFilterProxy
+
+Qn7)Dispatcher servlet
+
+Qn8)This scopes the bean definition to a single instance per Spring IOC container
+
+Qn9)Association validation
+
+Qn10)Any class that is managed by the container
+
+Qn11)ApplicationContext
+
+Qn12)All of the above
+
+Qn13)Autowiring by property name.Spring tries too match and wire its properties with bbeans defined by same names in the configuration file.
+
+Qn14)The spring web MVC framework provies model-view-controller architecture and ready components that can be used to develop flexible and loosely couple web applicatios
+
+Qn15)All of the above
+
+Qn16)Spring using DEpendency injection and supports loosly coupling
+
+Qn17)@PutMapping
+
+Qn18)Jackson
+
+Qn19)Repository
+
+Qn20)@PathVariable
+
+
+  
